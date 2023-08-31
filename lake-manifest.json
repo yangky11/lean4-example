@@ -4,7 +4,7 @@
  [{"git":
    {"url": "https://github.com/Peiyang-Song/leanml.git",
     "subDir?": null,
-    "rev": "cabf986510ce4498d19e71a3c0fde389099c2a35",
+    "rev": "68981ea873f773038604845c2c680a6431901850",
     "opts": {},
     "name": "leanml",
     "inputRev?": "kaiyu",
