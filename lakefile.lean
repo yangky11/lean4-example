@@ -3,6 +3,7 @@ open Lake DSL
 
 package «lean4-example» {
   -- add package configuration options here
+  moreLinkArgs := #["-lonnxruntime"]
 }
 
 lean_lib «Lean4Example» {
@@ -15,4 +16,5 @@ lean_exe «lean4-example» {
 }
 
 require aesop from git "https://github.com/JLimperg/aesop"
+require leanml from git "https://github.com/Peiyang-Song/leanml.git" @ "kaiyu"
 
