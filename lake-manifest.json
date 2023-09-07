@@ -4,15 +4,15 @@
  [{"git":
    {"url": "https://github.com/Peiyang-Song/leanml.git",
     "subDir?": null,
-    "rev": "68981ea873f773038604845c2c680a6431901850",
+    "rev": "668f7d44a534d319fa96e0feb708064c94ec918a",
     "opts": {},
     "name": "leanml",
-    "inputRev?": "kaiyu",
+    "inputRev?": "peiyang",
     "inherited": false}},
   {"git":
    {"url": "https://github.com/JLimperg/aesop",
     "subDir?": null,
-    "rev": "8365a0e9c911852b7392a7fabc001483e42242c0",
+    "rev": "c4ca69381e178ffbdc3114dd560ce9b52694d48b",
     "opts": {},
     "name": "aesop",
     "inputRev?": null,
