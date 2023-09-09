@@ -1,4 +1,4 @@
-import Leanml.Basic
+import LeanInfer.Basic
 
 open Nat (add_assoc add_comm)
 
