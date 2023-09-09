@@ -14,6 +14,5 @@ lean_exe «lean4-example» {
 }
 
 require aesop from git "https://github.com/JLimperg/aesop"
--- require leanml from git "https://github.com/Peiyang-Song/leanml.git" @ "peiyang"
 require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git"
 
