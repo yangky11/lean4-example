@@ -14,5 +14,5 @@ lean_exe «lean4-example» {
 }
 
 require aesop from git "https://github.com/JLimperg/aesop"
-require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git"@"v0.0.2"
+require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git"@"v0.0.3"
 
