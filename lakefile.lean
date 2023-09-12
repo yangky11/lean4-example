@@ -3,7 +3,7 @@ open Lake DSL
 
 package «lean4-example» {
   moreLinkArgs := #[s!"-L./lake-packages/LeanInfer/build/lib", "-lonnxruntime", "-lstdc++"]
-  weakLeanArgs := #[s!"--load-dynlib={__dir__}/build/lib/" ++ nameToSharedLib "onnxruntime"]
+  weakLeanArgs := #[s!"--load-dynlib=./lake-packages/LeanInfer/build/lib/" ++ nameToSharedLib "onnxruntime"]
 }
 
 lean_lib «Lean4Example» {
