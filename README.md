@@ -1,3 +1,6 @@
 # lean4-example
 
-A demo of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) to aid theorem proving. **Before running `lake build`, please follow LeanInfer's instructions to install dependencies and set environment variables.**
+
+1. Install [elan](https://github.com/leanprover/elan).
+2. Clone this repo and `cd` into its root.
+3. Run `git clone https://huggingface.co/kaiyuy/onnx-leandojo-lean4-tacgen-byt5-small && lake update && lake build`.
