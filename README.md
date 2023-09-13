@@ -6,6 +6,7 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 ## Option 1 (Recommended): Use LeanInfer's Cloud Release
 
 ### Requirements
+* Supported platforms: Linux or macOS (Intel). :warning: Macs with Apple Silicon can only use Option 2.
 * [elan](https://github.com/leanprover/elan)
 
 ### Steps
