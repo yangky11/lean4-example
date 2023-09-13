@@ -3,7 +3,8 @@ lean4-example
 
 An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your project.
 
-## Option 1 (Recommended): Use LeanInfer's Cloud Release
+
+## Option 1 (Recommended): Using LeanInfer's Cloud Release
 
 ### Requirements
 * [elan](https://github.com/leanprover/elan)
@@ -14,7 +15,7 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 * Build the project: `lake update && lake build`
 
 
-## Option 2: Build LeanInfer from Source
+## Option 2: Building LeanInfer from Source
 
 ### Requirements
 * [elan](https://github.com/leanprover/elan)
