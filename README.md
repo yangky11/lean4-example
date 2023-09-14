@@ -12,7 +12,7 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 ## Steps
 
 1. `git lfs install && git clone https://huggingface.co/kaiyuy/onnx-leandojo-lean4-tacgen-byt5-small`
-1. `lake update && lake build`
+1. `lake build`
 
 
 ## Caveats
