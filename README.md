@@ -4,7 +4,7 @@ lean4-example
 An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your project.
 
 
-## Option 1: Using LeanInfer's Cloud Release (Recommended for Linux and Intel Mac)
+## Option 1: LeanInfer's Cloud Release (Recommended for Linux and Intel Mac)
 
 ### Requirements
 * Supported platforms: Linux and macOS (Intel). :warning: Macs with Apple Silicon can only use Option 2.
