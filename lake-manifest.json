@@ -4,10 +4,10 @@
  [{"git":
    {"url": "https://github.com/lean-dojo/LeanInfer.git",
     "subDir?": null,
-    "rev": "24933681cb68c43c0a9a7e9497200260fe1e5903",
+    "rev": "97621b813a279be7a2d009c6b11da569699d9381",
     "opts": {},
     "name": "LeanInfer",
-    "inputRev?": "v0.0.3",
+    "inputRev?": "v0.0.4",
     "inherited": false}},
   {"git":
    {"url": "https://github.com/JLimperg/aesop",
