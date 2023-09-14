@@ -4,7 +4,7 @@ WORKDIR /lean4-example
 COPY . .
 
 # Install dependencies.
-RUN apt-get update && apt-get install -y curl git git-lfs build-essential
+RUN apt-get update && apt-get install -y curl git git-lfs clang lld libc++-dev
 
 # Install elan.
 ENV ELAN_HOME="/.elan"
@@ -16,5 +16,4 @@ RUN git lfs install
 RUN git clone https://huggingface.co/kaiyuy/onnx-leandojo-lean4-tacgen-byt5-small
 
 # Build the Lean project.
-RUN lake update
 RUN lake build
