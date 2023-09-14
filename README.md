@@ -16,7 +16,7 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 * `lake update && lake build`
 
 
-## Option 2: Building LeanInfer from Source (Recommended for Apple Silicon Mac)
+## Option 2: Building LeanInfer from Source (Recommended for Apple Silicon)
 
 ### Requirements
 * Supported platforms: Linux and macOS (both Intel and Apple Silicon).
