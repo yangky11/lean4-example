@@ -1,12 +1,12 @@
 import LeanInfer
+import Mathlib.Data.Nat.GCD.Basic
 
-open Nat (add_assoc add_comm)
-
-def hello := "world"
-
-theorem hello_world (a b c : Nat) 
-  : a + b + c = a + c + b := by
-  rw [add_assoc, add_comm b, ←add_assoc]
+/-
+theorem gcd_self (n : ℕ) : gcd n n = n := by
+  induction n with
+  | zero => rfl
+  | succ n ih => rw [Nat.gcd_succ, ih]
+-/
 
 theorem foo (a : Nat) : a + 1 = Nat.succ a := by 
   suggest_tactics
