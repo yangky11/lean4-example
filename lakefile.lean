@@ -2,7 +2,7 @@ import Lake
 open Lake DSL
 
 package «lean4-example» {
-  moreLinkArgs := #[s!"-L./lake-packages/LeanInfer/build/lib", "-lonnxruntime", "-lstdc++"]
+  moreLinkArgs := #["-L./lake-packages/LeanInfer/build/lib", "-lonnxruntime", "-lstdc++"]
 }
 
 lean_lib «Lean4Example» {
