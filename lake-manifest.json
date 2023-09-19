@@ -20,15 +20,15 @@
   {"git":
    {"url": "https://github.com/lean-dojo/LeanInfer.git",
     "subDir?": null,
-    "rev": "54577339a50bf4f32bb59e9c51dd17112fc63e58",
+    "rev": "07a98e38b5819b36938916512c2da9ef25796f8a",
     "opts": {},
     "name": "LeanInfer",
-    "inputRev?": "v0.0.5",
+    "inputRev?": "v0.0.6",
     "inherited": false}},
   {"git":
    {"url": "https://github.com/leanprover-community/mathlib4",
     "subDir?": null,
-    "rev": "67b54e26a290135bcb4fbb70bc7c678bf3e59827",
+    "rev": "2f19a6b1924e700518c8d9332c1379b1fdfe9c10",
     "opts": {},
     "name": "mathlib",
     "inputRev?": null,
@@ -52,7 +52,7 @@
   {"git":
    {"url": "https://github.com/leanprover/std4",
     "subDir?": null,
-    "rev": "efcb1a6fe69b57b16d370ffe36551c3d21b5a53e",
+    "rev": "ba5e5e3af519b4fc5221ad0fa4b2c87276f1d323",
     "opts": {},
     "name": "std",
     "inputRev?": "main",

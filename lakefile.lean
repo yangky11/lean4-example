@@ -9,5 +9,5 @@ package «lean4-example» {
 lean_lib «Lean4Example» {
 }
 
-require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git"@"v0.0.5"
 require mathlib from git "https://github.com/leanprover-community/mathlib4"
+require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.0.6"
