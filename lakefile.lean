@@ -13,6 +13,3 @@ lean_lib «Lean4Example» {
 lean_exe «lean4-example» {
   root := `Main
 }
-
-require aesop from git "https://github.com/JLimperg/aesop"
-
