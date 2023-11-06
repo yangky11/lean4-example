@@ -2,7 +2,7 @@ import Lake
 open Lake DSL
 
 package «lean4-example» {
-  moreLinkArgs := #["-L./lake-packages/LeanInfer/build/lib", "-lonnxruntime", "-lstdc++"]
+  moreLinkArgs := #["-L./lake-packages/LeanInfer/build/lib", "-lonnxruntime", "-lctranslate2"]
 }
 
 lean_lib «Lean4Example» {
@@ -13,6 +13,4 @@ lean_exe «lean4-example» {
   root := `Main
 }
 
-require aesop from git "https://github.com/JLimperg/aesop"
-
-require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.0.7"
+require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "main"
