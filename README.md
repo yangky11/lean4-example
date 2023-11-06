@@ -11,7 +11,10 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 
 ## Steps
 
-`lake build`
+```bash
+lake script run LeanInfer/download
+lake build
+```
 
 
 ## Questions and Bugs
