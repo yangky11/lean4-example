@@ -4,7 +4,7 @@ open Lake DSL
 package «lean4-example» {
   moreLinkArgs := #[
     "-L./lake-packages/LeanInfer/build/lib",
-    "-L./.lake/packages/LeanInfer/.lake/build/lib/",
+    "-L./.lake/packages/LeanInfer/.lake/build/lib",
     "-lonnxruntime", "-lctranslate2"
   ]
 }
