@@ -22,7 +22,7 @@
   {"url": "https://github.com/lean-dojo/LeanInfer.git",
    "type": "git",
    "subDir": null,
-   "rev": "a55fdce040a1264d3b75cac25307da06c8ea4361",
+   "rev": "b2925d5f99b35fb7b1c3ef8ad506916c4fa3fa52",
    "name": "LeanInfer",
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
