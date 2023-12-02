@@ -1,9 +1,8 @@
-import Mathlib.Data.Nat.Basic
-import Mathlib.Data.Real.Basic
-
 open Nat
 
 namespace Hidden
+
+abbrev ℕ := Nat
 
 def divides (m n : ℕ) : Bool :=
   n % m = 0
@@ -26,7 +25,8 @@ def fib : ℕ → ℕ
 def gcd : ℕ → ℕ → ℕ
 | 0, y => y
 | (x + 1), y => gcd (y % (x + 1)) (x + 1)
-decreasing_by apply Nat.mod_lt ; simp  -- Prove `gcd` terminates.
+decreasing_by apply Nat.mod_lt ; exact succ_pos x  -- Prove `gcd` terminates.
+
 
 #eval gcd 20 25
 #eval gcd 20 20
