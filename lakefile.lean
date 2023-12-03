@@ -2,7 +2,11 @@ import Lake
 open Lake DSL
 
 package «lean4-example» {
-  -- add package configuration options here
+  moreLinkArgs := #[
+    "-L./.lake/packages/LeanInfer/.lake/build/lib",
+    "-lonnxruntime",
+    "-lctranslate2"
+  ]
 }
 
 @[default_target]
@@ -13,3 +17,5 @@ lean_lib «Lean4Example» {
 lean_lib Gcd {
 
 }
+
+require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.0.9"

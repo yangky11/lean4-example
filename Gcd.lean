@@ -1,6 +1,9 @@
 /-
 # Demo: A Taste of Lean
 -/
+import LeanInfer
+#init_llm_aesop
+
 open Nat
 
 abbrev ℕ := Nat
