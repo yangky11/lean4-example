@@ -54,7 +54,7 @@ theorem gcd_self (n : ℕ) : gcd n n = n := by
     rfl
 
 /-
-* A proof is a sequence of tactics.
+* A proof consists of a sequence of tactics.
 * Each tactic transforms a goal into one or more subgoals, until all goals are solved.
 * Tactic may use existing definitions and lemmas.
 * Proofs are not unique. Below are two other proofs of the same theorem.
