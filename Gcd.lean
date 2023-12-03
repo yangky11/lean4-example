@@ -32,7 +32,7 @@ def fib : ℕ → ℕ
 /-
 ## Greatest Common Divisor
 
-* Besides a programming language, Lean is also a theorem prover,
+* Besides a programming language, Lean is also a proof assistant (interactive theorem prover),
   allowing us to state theorems and prove them.
 * Let's prove that the greatest common divisor of `n` with itself is `n`.
 -/
