@@ -1,14 +1,21 @@
+/-
+# Demo: A Taste of Lean
+-/
 open Nat
-
-namespace Hidden
 
 abbrev ℕ := Nat
 
-def divides (m n : ℕ) : Bool :=
-  n % m = 0
+namespace Hidden
 
-#eval divides 3 11
-#eval divides 3 12
+/-
+## Fibonacci Sequence
+
+* Lean is a functional programming language (like OCaml and Haskell).
+* Just like in any programming language, we can define a recursive function
+    ,e.g., to compute the Fibonacci sequence.
+* It takes a natural number `i` and returns the `i`-th Fibonacci number.
+* fib 0 = 0, fib 1 = 1, fib (n + 2) = fib n + fib (n + 1)
+-/
 
 def fib : ℕ → ℕ
 | 0 => 0
@@ -20,30 +27,43 @@ def fib : ℕ → ℕ
 #eval fib 4
 #eval fib 5
 #eval fib 6
-#eval fib 7
 
+
+/-
+## Greatest Common Divisor
+
+* Besides a programming language, Lean is also a theorem prover,
+  allowing us to state theorems and prove them.
+* Let's prove that the greatest common divisor of `n` with itself is `n`.
+-/
 def gcd : ℕ → ℕ → ℕ
 | 0, y => y
-| (x + 1), y => gcd (y % (x + 1)) (x + 1)
-decreasing_by apply Nat.mod_lt ; exact succ_pos x  -- Prove `gcd` terminates.
-
+| (x' + 1), y => gcd (y % (x' + 1)) (x' + 1)
+decreasing_by apply Nat.mod_lt ; exact succ_pos x'  -- Prove `gcd` terminates.
 
 #eval gcd 20 25
 #eval gcd 20 20
 
 theorem gcd_self (n : ℕ) : gcd n n = n := by
-  cases n
+  cases n  -- tactic
   · unfold gcd
     rfl
   · unfold gcd
-    rw [mod_self]
+    rewrite [mod_self]
     unfold gcd
     rfl
+
+/-
+* A proof is a sequence of tactics.
+* Each tactic transforms a goal into one or more subgoals, until all goals are solved.
+* Tactic may use existing definitions and lemmas.
+* Proofs are not unique. Below are two other proofs of the same theorem.
+-/
 
 theorem gcd_self' (n : ℕ) : gcd n n = n := by
   cases n <;> unfold gcd
   · rfl
-  · rw [mod_self]
+  · rewrite [mod_self]
     simp [gcd]
 
 theorem gcd_self'' (n : ℕ) : gcd n n = n := by
