@@ -12,4 +12,4 @@ package «lean4-example» {
 lean_lib «Lean4Example» {
 }
 
-require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.0.9"
+require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.1.0"
