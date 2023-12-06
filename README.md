@@ -1,7 +1,7 @@
 lean4-example
 -------------
 
-An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your project.
+An example of using [Lean Copilot](https://github.com/lean-dojo/LeanCopilot) in your project.
 
 
 ## Requirements
@@ -12,10 +12,10 @@ An example of using [LeanInfer](https://github.com/lean-dojo/LeanInfer) in your 
 ## Steps
 
 ```bash
-lake script run LeanInfer/download
+lake exe LeanCopilot/download
 lake build
 ```
 
 
 ## Questions and Bugs
-Please report in the [LeanInfer](https://github.com/lean-dojo/LeanInfer) repo.
+Please report in the [LeanCopilot](https://github.com/lean-dojo/LeanCopilot) repo.
