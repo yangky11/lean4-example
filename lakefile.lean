@@ -4,7 +4,6 @@ open Lake DSL
 package «lean4-example» {
   moreLinkArgs := #[
     "-L./.lake/packages/LeanInfer/.lake/build/lib",
-    "-lonnxruntime",
     "-lctranslate2"
   ]
 }
@@ -18,4 +17,4 @@ lean_lib Gcd {
 
 }
 
-require LeanInfer from git "https://github.com/lean-dojo/LeanInfer.git" @ "v0.0.9"
+require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "main"

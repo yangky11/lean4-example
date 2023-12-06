@@ -1,7 +1,7 @@
 /-
 # Demo: A Taste of Lean
 -/
-import LeanInfer
+import LeanCopilot
 #init_llm_aesop
 
 open Nat
@@ -32,6 +32,9 @@ def fib : ℕ → ℕ
 #eval fib 6
 
 
+
+
+
 /-
 ## Greatest Common Divisor
 
@@ -48,13 +51,10 @@ decreasing_by apply Nat.mod_lt ; exact succ_pos x'  -- Prove `gcd` terminates.
 #eval gcd 20 20
 
 theorem gcd_self (n : ℕ) : gcd n n = n := by
-  cases n  -- tactic
-  · unfold gcd
-    rfl
-  · unfold gcd
-    rewrite [mod_self]
-    unfold gcd
-    rfl
+  cases n
+  · simp_all only [zero_eq]
+    apply Eq.refl
+  · simp [gcd]
 
 /-
 * A proof consists of a sequence of tactics.
