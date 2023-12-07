@@ -1,7 +1,6 @@
 *.txt
 .vscode
-build
-onnx*
+.lake
 tmp
 lake-packages
 clang+llvm*
