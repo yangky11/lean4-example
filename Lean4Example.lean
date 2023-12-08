@@ -1,4 +1,4 @@
-import Mathlib.Data.Set.Lattice
+import Mathlib.Data.Set.Basic
 import LeanCopilot
 
 #configure_llm_aesop
