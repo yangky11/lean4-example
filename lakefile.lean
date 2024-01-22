@@ -3,7 +3,7 @@ open Lake DSL
 
 package «lean4-example» {
   moreLinkArgs := #[
-    "-L./.lake/packages/LeanInfer/.lake/build/lib",
+    "-L./.lake/packages/LeanCopilot/.lake/build/lib",
     "-lctranslate2"
   ]
 }
@@ -12,4 +12,4 @@ package «lean4-example» {
 lean_lib «Lean4Example» {
 }
 
-require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v1.0.0"
+require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v1.1.0"
