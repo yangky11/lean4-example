@@ -2,5 +2,4 @@
 .vscode
 .lake
 tmp
-lake-packages
 clang+llvm*
