@@ -12,7 +12,7 @@ theorem set_inter_comm (s t : Set α) : s ∩ t = t ∩ s := by
   ext x
   simp_all only [Set.mem_inter_iff]
   apply Iff.intro
-  · intro a
+  · intro h
     simp_all only [and_self]
-  · intro a
+  · intro h
     simp_all only [and_self]
