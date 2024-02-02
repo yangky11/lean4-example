@@ -22,7 +22,7 @@
   {"url": "https://github.com/lean-dojo/LeanCopilot.git",
    "type": "git",
    "subDir": null,
-   "rev": "755dc24a0b3d007564976aca49746245c5aa90fd",
+   "rev": "4bc4e6c09689472e5523b0acc724c666baf51e6e",
    "name": "LeanCopilot",
    "manifestFile": "lake-manifest.json",
    "inputRev": "v1.1.1",
