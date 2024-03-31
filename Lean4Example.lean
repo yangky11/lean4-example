@@ -1,4 +1,3 @@
--- Lean Copilot is open-sourced at https://github.com/lean-dojo/LeanCopilot
 import LeanCopilot
 import Mathlib.Data.Set.Basic
 
