@@ -11,3 +11,7 @@ theorem foo (a : Nat) : a + 1 = Nat.succ a := by
 
 theorem bar (a b c d : Nat) : a + b + c + d = a + (c + b) + d := by
   search_proof
+
+theorem baz (a b c : Nat) : a + b + c = a + c + b := by
+  select_premises
+  sorry
