@@ -5,7 +5,7 @@ An example of using [Lean Copilot](https://github.com/lean-dojo/LeanCopilot) in 
 
 
 ## Requirements
-* Supported platforms: Linux and macOS (Intel or Apple Silicon).
+* Supported platforms: Linux, macOS, and [Windows WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 * [elan](https://github.com/leanprover/elan)
 
 
