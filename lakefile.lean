@@ -14,5 +14,5 @@ lean_lib «Lean4Example» {
 }
 
 
-require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "stable"
-require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v1.6.0"
+require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "v4.14.0"
+require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v4.14.0"
