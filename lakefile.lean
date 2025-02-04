@@ -12,4 +12,4 @@ package «lean4-example» {
 lean_lib «Lean4Example» {
 }
 
-require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v4.15.0"
+require LeanCopilot from git "https://github.com/lean-dojo/LeanCopilot.git" @ "v4.16.0"
